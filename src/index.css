@@ -1,0 +1,44 @@
+body {
+  background-color: whitesmoke;
+  font-family: Roboto;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100px;
+  background-color: white;
+  filter: drop-shadow(0 15px 5px #eeeeee);
+  z-index: 999;
+}
+
+.nav-items {
+  height: 100%;
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+}
+
+.nav-items * {
+  margin: auto;
+}
+
+.nav-items a {
+  opacity: 0.3;
+}
+
+.current {
+  opacity: 1 !important;
+}
+
+main {
+  position: absolute;
+  top: 100px;
+}
