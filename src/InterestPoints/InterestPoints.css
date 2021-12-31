@@ -1,11 +1,13 @@
 .interest-points {
     background-color: white;
-    height: 1500px;
+    height: auto;
+    min-height: 800px;
     width: 100vw;
 }
 
 .interest-list {
   width: 40%;
   margin: 0 auto;
+  padding-bottom: 200px;
   transform: translateY(-25px);
 }

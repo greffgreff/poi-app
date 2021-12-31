@@ -5,10 +5,10 @@ import './InterestPoints.css'
 
 export default function InterestPoints({ interests }) {
     return (
-        <div class="interest-points">
-            <div class="interest-list">
+        <div className="interest-points">
+            <div className="interest-list">
                 {interests.map(interest => {
-                    return <InterestPoint interest={interest} />
+                    return <InterestPoint key={interest.id} interest={interest} />
                 })}
             </div>
         </div>
