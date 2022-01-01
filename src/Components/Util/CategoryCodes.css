@@ -1,60 +1,533 @@
+/* airline access | security gate | station access | access gateway */
 .ACCESS_GATEWAY {
 
-}
+}	
 
+/* province | fourth-order administrative division | first-order administrative division | historical third-order administrative division | seat of a fourth-order administrative division | seat of a second-order administrative division | dependent political entity | populated place | seat of a third-order administrative division | populated places | second-order administrative division | seat of a first-order administrative division | administrative division | populated locality | historical region | historical site | historical populated place | israeli settlement | historical fourth-order administrative division | fifth-order administrative division | historical first-order administrative division | third-order administrative division | historical political entity | historical administrative division | seat of government of a political entity | historical second-order administrative division | capital of a political entity */
 .ADMINISTRATIVE_DIVISION {
 
 }
 
+/* adventure sports venue */
 .ADVENTURE_SPORTS_VENUE {
 
-}
+}	
 
+/* horticulture | primary producer | agriculture | farm | farm village | farmstead | homestead | grazing area | common | aquaculture facility | farms | fishing area | dairy | field(s) */
 .AGRICULTURE {
 
-}
+}	
 
+/* private authority | military authority | heliport | closed | medium_airport | large_airport | small_airport | airfield | seaplane_base | public authority | balloonport | airport */
 .AIRPORT {
 
-}
+}	
 
+/* amusement arcade | amusement place | amusement park */
 .AMUSEMENT_PARK {
 
-}
+}	
 
+/* atv/snowmobile | boat | bus | motorcycle | truck | van | recreational vehicles | car | automotive dealer */
 .AUTOMOTIVE_DEALER {
 
-}
+}	
 
+/* bank | banks | bank(s) */
 .BANK {
 
-}
+}	
 
+/* beach | beaches */
 .BEACH {
 
-}
-
+}	
+/* building (point) */
 .BUILDING_POINT {
 
-}
+}	
 
+/* business park | industrial area */
 .BUSINESS_PARK {
 
-}
+}	
 
+/* internet café | tea house | cafe | internet cafe | café | coffee shop | microbrewery/beer garden | pub | café/pub | cafe/pub */
 .CAFE_PUB {
 
-}
+}	
 
+/* recreational | caravan site | camping ground */
 .CAMPING_GROUND {
-    
-}
 
+}	
+
+/* car wash */
 .CAR_WASH {
 
-}
+}	
 
+/* automatic teller machine | cash dispenser */
 .CASH_DISPENSER {
 
+}	
+
+/* casino */
+.CASINO {
+
+}	
+
+/* drive-in cinema | cinema */
+.CINEMA {
+
+}	
+
+/* neighbourhood | administrative area | city center | center */
+.CITY_CENTER {
+
+}	
+
+/* beach club | hockey club | club association */
+.CLUB_ASSOCIATION {
+
+}	
+
+/* junior college/community college | college/university | college | university prep school | university */
+.COLLEGE_UNIVERSITY {
+
+}	
+
+/* office building | park headquarters | commercial building */
+.COMMERCIAL_BUILDING {
+
+}	
+
+/* community center */
+.COMMUNITY_CENTER {
+
+}	
+
+/* electronics | manufacturing | computer data services | public health technologies | diversified finanacials | animal shelter | airline | equipment rental | service | mail/package/freight delivery | bus lines | home appliance repair | cleaning services | oem | tax services | oil natural gas | legal services | construction | tele communications | transport | automobile manufacturing | chemicals | funeral service mortuaries | bridge tunnel operations | automobile | mechanical engineering | services | investment advisors | advertising/marketing | moving storage | savings institution | insurance | computer software | pharmaceuticals | catering | wedding services | agricultural technology | real estate | taxi, limousine shuttle service | bus charter rentals | mining | publishing technologies | cable telephone | import/export distribution | company | asylum | coal mine(s) | estate(s) | brewery | gold mine(s) */
+.COMPANY {
+
+}	
+
+/* courthouse */
+.COURTHOUSE {
+
+}	
+
+/* cultural center */
+.CULTURAL_CENTER {
+
+}	
+
+/* dentist */
+.DENTIST {
+
+}	
+
+/* department store */
+.DEPARTMENT_STORE {
+
+}	
+
+/* general practitioner | specialist | doctor */
+.DOCTOR {
+
+}	
+
+/* electric vehicle station */
+.ELECTRIC_VEHICLE_STATION {
+
+}	
+
+/* embassy */
+.EMBASSY {
+
+}	
+
+/* emergency medical service */
+.EMERGENCY_MEDICAL_SERVICE {
+
+}	
+
+/* entertainment */
+.ENTERTAINMENT {
+
+}	
+
+/* gold exchange | currency exchange | stock exchange | exchange */
+.EXCHANGE {
+
+}	
+
+/* exhibition convention center */
+.EXHIBITION_CONVENTION_CENTER {
+
+}	
+
+/* ferry | ferry terminal */
+.FERRY_TERMINAL {
+    
+}	
+
+/* fire station/brigade */
+.FIRE_STATION_BRIGADE {
+
+}	
+
+/* frontier crossing */
+.FRONTIER_CROSSING {
+
+}	
+
+/* fuel facilities */
+.FUEL_FACILITIES {
+
+}	
+
+/* bay | cove | pan | locale | ridge | mineral/hot springs | well | reservoir | marsh/swamp/vlei | quarry | river crossing | valley | mountain peak | reef | dune | lagoon | plain/flat | rapids | cape | plateau | oasis | harbor | cave | rocks | geographic feature | promontory(-ies) | islands | headland | pier | crater lake | cliff(s) | hill | desert | portage | glacier(s) | gully | geyser | coral reef(s) | gap | gulf | jetty | ghat | hole | crater lakes | gasfield | islet | crater(s) | cove(s) | grassland | gravel area | fracture zone | heath | gorge(s) | island | headwaters | hanging valley | hills | hot spring(s) | furrow | anabranch */
+.GEOGRAPHIC_FEATURE {
+
+}	
+
+/* golf course */
+.GOLF_COURSE {
+
+}	
+
+/* order 5 area | order 8 area | order 9 area | order 2 area | order 7 area | order 3 area | supra national | order 4 area | order 6 area | government office | diplomatic facility | united states government establishment | local government office | customs house | customs post */
+.GOVERNMENT_OFFICE {
+
+}	
+
+/* blood bank | personal service | personal care facility | ambulance unit | health care service | leprosarium | sanatorium | hospital | medical center | clinic */
+.HEALTH_CARE_SERVICE {
+
+}	
+
+/* helipad/helicopter landing */
+.HELIPAD_HELICOPTER_LANDING {
+
+}	
+
+/* bungalow | cottage | chalet | villa | apartment | holiday rental */
+.HOLIDAY_RENTAL {
+
+}	
+
+/* special | hospital of chinese medicine | hospital for women children | general | hospital/polyclinic */
+.HOSPITAL_POLYCLINIC {
+
+}	
+
+/* cabins lodges | bed breakfast guest houses | hotel | rest camps | motel | resort | hostel | hotel/motel | resthouse | hammock(s) | guest house */
+.HOTEL_MOTEL {
+
+}	
+
+/* ice skating rink */
+.ICE_SKATING_RINK {
+
+}	
+
+/* building | observatory | arch | tunnel | statue | tower | bridge | planetarium | mausoleum/grave | monument | water hole | natural attraction | important tourist attraction | promenade | pyramids | pagoda | castle | palace | hermitage | pyramid | fort | gate | country house | dam | lighthouse | grave */
+.IMPORTANT_TOURIST_ATTRACTION {
+
+}	
+
+/* foundry | fuel depot | industrial building | factory */
+.INDUSTRIAL_BUILDING {
+
+}	
+
+/* bowling | snooker, pool billiard | flying club | dance studio school | sauna, solarium massage | leisure center | spa */
+.LEISURE_CENTER {
+
+}	
+
+/* library */
+.LIBRARY {
+
+}	
+
+/* manufacturing facility */
+.MANUFACTURING_FACILITY {
+
+}	
+
+/* yacht basin | marina */
+.MARINA {
+
+}	
+
+/* supermarkets hypermarkets | farmers | public | informal | market */
+.MARKET {
+
+}	
+
+/* media facility */
+.MEDIA_FACILITY {
+
+}	
+
+/* military base | coast guard station | military installation | naval base */
+.MILITARY_INSTALLATION {
+
+}	
+
+/* motoring organization office */
+.MOTORING_ORGANIZATION_OFFICE {
+
+}	
+
+/* mountain pass */
+.MOUNTAIN_PASS {
+
+}	
+
+/* museum */
+.MUSEUM {
+
+}	
+
+/* native reservation | reservation */
+.NATIVE_RESERVATION {
+
+}	
+
+/* bar | karaoke club | jazz club | private club | wine bar | comedy club | cocktail bar | discotheque | nightlife */
+.NIGHTLIFE {
+
+}	
+
+/* non governmental organization */
+.NON_GOVERNMENTAL_ORGANIZATION {
+
+}	
+
+/* open parking area | parking lot */
+.OPEN_PARKING_AREA {
+
+}	
+
+/* locality | free trade zone | traffic circle | unknown */
+.OTHER {
+
+}	
+
+/* parking garage */
+.PARKING_GARAGE {
+
+}	
+
+/* historic site | lakeshore | seashore | river scenic area | fishing hunting area | battlefield | winter sport | boat launching ramp | preserve | forest area | recreation area | ski resort | cemetery | historical park | parkway | memorial | fairground | picnic area | wilderness area | park recreation area | forest(s) | fossilized forest | garden(s) | wildlife reserve | nature reserve | forest station | hunting reserve | forest reserve | park */
+.PARK_RECREATION_AREA {
+
+}	
+
+/* petrol station */
+.PETROL_STATION {
+
+}	
+
+/* pharmacy | dispensary */
+.PHARMACY {
+
+}	
+
+/* ashram | synagogue | mosque | gurudwara | church | temple | place of worship | mission | retreat | temple(s) | religious site | religious center | monastery | convent */
+.PLACE_OF_WORSHIP {
+
+}	
+
+/* order 1 area | police station | police post */
+.POLICE_STATION {
+
+}	
+
+/* harbor(s) | docking basin | port | port/warehouse facility | dockyard | dock(s) */
+.PORT_WAREHOUSE_FACILITY {
+
+}	
+
+/* local | post office */
+.POST_OFFICE {
+
+}	
+
+/* primary resource/utility | power station | gas-oil separator plant */
+.PRIMARY_RESOURCE_UTILITY {
+
+}	
+
+/* prison | prison/correctional facility */
+.PRISON_CORRECTIONAL_FACILITY {
+
+}	
+
+/* pedestrian subway | toilet | road rescue | passenger transport ticket office | public call box | public amenity | communication center */
+.PUBLIC_AMENITY {
+
+}	
+
+/* coach stop | bus stop | taxi stand | tram stop | public transport stop | metro station | railroad station | bus station | railroad stop */
+.PUBLIC_TRANSPORT_STOP {
+
+}	
+
+/* national | railway siding | metro | (sub) urban | railway station */
+.RAILWAY_STATION {
+
+}	
+
+/* rent-a-car facility */
+.RENT_A_CAR_FACILITY {
+
+}	
+
+/* rent-a-car-parking */
+.RENT_A_CAR_PARKING {
+
+}	
+
+/* bodyshops | tyre (tire) services | repair shops | car glass replacement shops | general car repair servicing | sale installation of car accessories | motorcycle repair | truck repair service | repair facility */
+.REPAIR_FACILITY {
+
+}	
+
+/* research facility */
+.RESEARCH_FACILITY {
+
+}	
+
+/* retirement community | townhouse complex | flats/apartment complex | condominium complex | residential estate | residential accommodation */
+.RESIDENTIAL_ACCOMMODATION {
+
+}	
+
+/* german | creole-cajun | dutch | banquet rooms | bistro | israeli | slovak | jamaican | vegetarian | seafood | vietnamese | maltese | sichuan | welsh | chinese | japanese | algerian | californian | fusion | shandong | salad bar | savoyan | spanish | ethiopian | taiwanese | doughnuts | iranian | canadian | american | norwegian | french | hunan | polynesian | afghan | roadside | oriental | swiss | erotic | crêperie | surinamese | egyptian | hungarian | nepalese | barbecue | hot pot | hamburgers | mediterranean | latin american | tapas | british | mexican | guangdong | asian (other) | buffet | sushi | mongolian | international | mussels | thai | venezuelan | rumanian | chicken | soup | kosher | steak house | yogurt/juice bar | italian | korean | cypriot | bosnian | bolivian | dominican | belgian | tunisian | scottish | english | pakistani | czech | hawaiian | maghrib | tibetan | arabian | middle eastern | chilean | shanghai | polish | filipino | sudanese | armenian | burmese | brazilian | scandinavian | bulgarian | soul food | colombian | jewish | pizza | sicilian | organic | greek | basque | uruguayan | cafeterias | finnish | african | corsican | syrian | caribbean | dongbei | russian | grill | take away | fast food | australian | irish | pub food | fondue | lebanese | indonesian | danish | provençal | teppanyakki | indian | mauritian | western continental | peruvian | cambodian | snacks | swedish | macrobiotic | ice cream parlor | slavic | turkish | argentinean | austrian | exotic | portuguese | luxembourgian | moroccan | sandwich | cuban | restaurant */
+.RESTAURANT {
+
+}	
+
+/* restaurant area */
+.RESTAURANT_AREA {
+
+}	
+
+/* rest area | halting place */
+.REST_AREA {
+
+}	
+
+/* scenic/panoramic view | observation point */
+.SCENIC_PANORAMIC_VIEW {
+
+}	
+
+/* culinary school | primary school | art school | senior high school | driving school | language school | sport school | pre school | high school | middle school | vocational training | special school | child care facility | school | technical school | military school | agricultural school */
+.SCHOOL {
+
+}	
+
+/* factory outlet | security products | christmas/holiday store | opticians | house garden: lighting | lottery shop | musical instruments | nail salon | house garden: painting decorating | hobby/free time | newsagents tobacconists | clothing accessories: specialty | dry cleaners | bags leatherwear | pet supplies | clothing accessories: children | construction material equipment | jewelry, clocks watches | clothing accessories: footwear shoe repairs | house garden: curtains/textiles | electrical, office it: consumer electronics | electrical, office it: camera's photography | cd's, dvd videos | laundry | clothing accessories: men | florists | pawn shop | book shops | marine electronic equipment | food drinks: food markets | house garden: carpet/floor coverings | photocopy | boating equipment accessories | mobile phone shop | toys games | specialty foods | clothing accessories: general | food drinks: bakers | tailor shop | gifts, cards, novelties souvenirs | animal services | sports equipment clothing | stamp shop | electrical appliance | electrical, office it: office equipment | photo lab/development | wholesale clubs | house garden: furniture fittings | local specialities | food drinks: butchers | variety store | food drinks: food shops | food drinks: wine spirits | drug store | furniture/home furnishings | electrical, office it: computer computer supplies | cd/video rental | medical supplies equipment | agricultural supplies | beauty salon | house garden: garden centers services | food drinks: fishmongers | beauty supplies | clothing accessories: women | travel agents | retail outlet | recycling shop | house garden: glass windows | hardware | real estate agents | glassware/ceramic | delicatessen | house garden: kitchens bathrooms | betting station | hairdressers barbers | food drinks: grocers | food drinks: green grocers | convenience stores | drive through bottle shop | house garden: do-it-yourself centers | antique/art | shop | store */
+.SHOP {
+
+}	
+
+/* mall | shopping center */
+.SHOPPING_CENTER {
+
+}	
+
+/* thematic sport | squash court | fitness club center | sports center */
+.SPORTS_CENTER {
+
+}	
+
+/* netball | football | baseball | race track | multi-purpose | motor sport | cricket ground | rugby ground | ice hockey | athletic | horse racing | basketball | soccer | stadium | athletic field | racetrack */
+.STADIUM {
+
+}	
+
+/* swimming pool */
+.SWIMMING_POOL {
+
+}	
+
+/* tennis court */
+.TENNIS_COURT {
+
+}	
+
+/* amphitheater | concert hall | dinner theater | music center | opera | cabaret | theater | opera house */
+.THEATER {
+
+}	
+
+/* tourist information office */
+.TOURIST_INFORMATION_OFFICE {
+
+}	
+
+/* traffic light */
+.TRAFFIC_LIGHT {
+
+}	
+
+/* traffic control department | traffic service center */
+.TRAFFIC_SERVICE_CENTER {
+
+}	
+
+/* traffic sign */
+.TRAFFIC_SIGN {
+
+}	
+
+/* adventure vehicle | rock climbing | horse riding | mountain bike | hiking | trail system */
+.TRAIL_SYSTEM {
+
+}	
+
+/* transport authority/vehicle registration */
+.TRANSPORT_AUTHORITY_VEHICLE_REGISTRATION {
+
+}	
+
+/* truck stop */
+.TRUCK_STOP {
+
+}	
+
+/* veterinary facility | veterinarian */
+.VETERINARIAN {
+
+}	
+
+/* water sport */
+.WATER_SPORT {
+
+}	
+
+/* weigh scales | weigh station */
+.WEIGH_STATION {
+
+}	
+
+/* welfare organization */
+.WELFARE_ORGANIZATION {
+
 }
 
+/* winery */
+.WINERY {
+
+}	
+
+/* wildlife park | aquatic zoo marine park | arboreta botanical gardens | zoo | zoos, arboreta botanical garden */
+.ZOOS_ARBORETA_BOTANICAL_GARDEN {
+
+}	
