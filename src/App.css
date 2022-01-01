@@ -1,0 +1,12 @@
+body {
+  background-color: #EEF5FF;
+  font-family: Roboto;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  position: absolute;
+  top: 100px;
+}
