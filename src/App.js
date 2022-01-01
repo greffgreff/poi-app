@@ -25,14 +25,17 @@ export default function App() {
       parsedPois.push({
         id: uuidv4(),
         name: result.poi.name,
-        category: result.poi.categories.reduce((a, b) => a.length <= b.length ? a : b),
+        // category: result.poi.categories.reduce((a, b) => a.length <= b.length ? a : b),
+        categories: result.poi.categories,
         code: result.poi.classifications[0].code,
+        phone: result.poi.phone,
+        url: result.poi.url
       })
     });
-    return parsedPois
+    return parsedPois.reverse()
   }
 
-  const dummy = [{ id: uuidv4(), name: "somename", category: "restaurant", code: "RESTAURANT"}]
+  const dummy = [{ id: uuidv4(), name: "somename", categories: ["restaurant"], code: "RESTAURANT", phone: "", url: "" }]
 
   return (
     <>
