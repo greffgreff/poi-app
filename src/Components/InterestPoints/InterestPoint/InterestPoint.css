@@ -5,22 +5,10 @@
     margin-bottom: 25px;
     transition: 0.3s;
     box-shadow: 0 10px 7px -5px #eee;
-    border-left: 8px solid #eee;
+    /* border-left: 8px solid #eee;  */
 }
 
 .interest-point:hover {
     box-shadow: 0 10px 15px -5px #eee;
     transform: scale(1.01) perspective(1000px) rotateX(1deg);    
-}
-
-.Restaurant {
-    border-left: 10px solid #FEE132;
-}
-
-.Hotel {
-    border-left: 10px solid #EA3DA7;
-}
-
-.Store {
-    border-left: 10px solid #F70038;
 }

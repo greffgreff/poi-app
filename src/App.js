@@ -11,9 +11,10 @@ const TOMTOM_API_KEY = "r6SBW2lsmjrN88T2GgG7ddAwmtmJiwiC"
 
 export default function App() {
   const [pointsOfInterests, setPois] = useState({})
+  const query = ""
   
   useEffect(async() => {
-    const poiData = await axios.get(`https://api.tomtom.com/search/2/poiSearch/%7Bfast%20fo%7D.json?key=${TOMTOM_API_KEY}`)
+    const poiData = await axios.get(`https://api.tomtom.com/search/2/poiSearch/${query}.json?key=${TOMTOM_API_KEY}`)
     if (poiData) setPois(parsePoiData(poiData))
   }, [])
   

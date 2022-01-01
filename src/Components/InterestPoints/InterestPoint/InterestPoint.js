@@ -1,5 +1,6 @@
 import React from 'react'
 import './InterestPoint.css'
+import '../../Util/CategoryCodes.css'
 
 export default function InterestPoint({ interest }) {
     return (
