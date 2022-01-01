@@ -11,3 +11,9 @@
   padding-bottom: 200px;
   transform: translateY(-25px);
 }
+
+.trailing-logo {
+  display: block;
+  width: 20%;
+  margin: 100px auto;
+}

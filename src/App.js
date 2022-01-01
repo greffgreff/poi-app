@@ -7,12 +7,13 @@ import { Wrapper as GoogleMapWrapper, Status } from "@googlemaps/react-wrapper";
 import './App.css';
 import axios from "axios";
 
+//https://coolors.co/9b581c-662c91-ff7733-33a1fd-fd3e81-fde321-309c76-3abb56-c879ff-f5a6e6
 const TOMTOM_API_KEY = "r6SBW2lsmjrN88T2GgG7ddAwmtmJiwiC"
 
 export default function App() {
   const [pointsOfInterests, setPois] = useState({})
-  const query = ""
-  
+  const query = "query"
+
   useEffect(async() => {
     const poiData = await axios.get(`https://api.tomtom.com/search/2/poiSearch/${query}.json?key=${TOMTOM_API_KEY}`)
     if (poiData) setPois(parsePoiData(poiData))
