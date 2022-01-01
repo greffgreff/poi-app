@@ -10,36 +10,36 @@ import axios from "axios";
 const TOMTOM_API_KEY = "r6SBW2lsmjrN88T2GgG7ddAwmtmJiwiC"
 
 export default function App() {
-  const interests = [
-    { id: uuidv4(), name:"McDonald's", type:"Restaurant", price:"$" },
-    { id: uuidv4(), name:"Hotel Amadeux", type:"Hotel", price:"$$" },
-    { id: uuidv4(), name:"Lidl", type:"Store", price:"$" },
-  ]
-
-  const [poiData, setPoiData] = useState({})
-  const [poiCategories, setPoiCategories] = useState({})
+  const [pointsOfInterests, setPois] = useState({})
   
   useEffect(async() => {
-    const poiCategories = await axios.get(`https://api.tomtom.com/search/2/poiCategories.json?key=${TOMTOM_API_KEY}`)
-    if (poiCategories) setPoiCategories(poiCategories)
-
-    const poiData = await axios.get(`https://api.tomtom.com/search/2/poiSearch/%7Bquery%7D.json?key=${TOMTOM_API_KEY}`)
-    if (poiData) setPoiData(poiData)
+    const poiData = await axios.get(`https://api.tomtom.com/search/2/poiSearch/%7Bfast%20fo%7D.json?key=${TOMTOM_API_KEY}`)
+    if (poiData) setPois(parsePoiData(poiData))
   }, [])
-
-  const json = JSON.stringify(poiCategories)
-  for (const value of Object.keys(json)) {
-    console.log(value);
+  
+  const parsePoiData = (poiData) => {
+    const parsedPois = []
+    poiData.data.results.forEach(result => {
+      parsedPois.push({
+        id: uuidv4(),
+        name: result.poi.name,
+        category: result.poi.categories.reduce((a, b) => a.length <= b.length ? a : b),
+        code: result.poi.classifications[0].code,
+      })
+    });
+    return parsedPois
   }
+
+  const dummy = [{ id: uuidv4(), name: "somename", category: "restaurant", code: "RESTAURANT"}]
 
   return (
     <>
       <Navigation />
       <MapArea />
       {/* <GoogleMapWrapper apiKey={"YOUR_API_KEY"}>
+        <MapArea />
       </GoogleMapWrapper> */}
-      <InterestPoints interests={interests} />
-      <pre>{}</pre>
+      <InterestPoints interests={ pointsOfInterests } />
     </>
   );
 }
