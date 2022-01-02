@@ -1,5 +1,6 @@
 import React from "react";
-import './Navigation.css'
+import SearchBar from "./Components/Navigation/SearchBar/SearchBar";
+import "./Navigation.css";
 
 export default function Navigation() {
   return (

@@ -17,9 +17,9 @@
 .PARK_RECREATION_AREA,
 /* mountain pass */
 .MOUNTAIN_PASS {
-    border-left: 10px solid #3ABB56;
-    background-color: #3ABB56;
-}	
+  border-left: 10px solid #3abb56;
+  background-color: #3abb56;
+}
 
 /* foundry | fuel depot | industrial building | factory */
 .INDUSTRIAL_BUILDING,
@@ -41,9 +41,9 @@
 .BUILDING_POINT,
 /* business park | industrial area */
 .BUSINESS_PARK {
-    border-left: 10px solid #9B581C;
-    background-color: #9B581C;
-}	
+  border-left: 10px solid #9b581c;
+  background-color: #9b581c;
+}
 
 /* department store */
 .DEPARTMENT_STORE,
@@ -53,9 +53,9 @@
 .SHOPPING_CENTER,
 /* factory outlet | security products | christmas/holiday store | opticians | house garden: lighting | lottery shop | musical instruments | nail salon | house garden: painting decorating | hobby/free time | newsagents tobacconists | clothing accessories: specialty | dry cleaners | bags leatherwear | pet supplies | clothing accessories: children | construction material equipment | jewelry, clocks watches | clothing accessories: footwear shoe repairs | house garden: curtains/textiles | electrical, office it: consumer electronics | electrical, office it: camera's photography | cd's, dvd videos | laundry | clothing accessories: men | florists | pawn shop | book shops | marine electronic equipment | food drinks: food markets | house garden: carpet/floor coverings | photocopy | boating equipment accessories | mobile phone shop | toys games | specialty foods | clothing accessories: general | food drinks: bakers | tailor shop | gifts, cards, novelties souvenirs | animal services | sports equipment clothing | stamp shop | electrical appliance | electrical, office it: office equipment | photo lab/development | wholesale clubs | house garden: furniture fittings | local specialities | food drinks: butchers | variety store | food drinks: food shops | food drinks: wine spirits | drug store | furniture/home furnishings | electrical, office it: computer computer supplies | cd/video rental | medical supplies equipment | agricultural supplies | beauty salon | house garden: garden centers services | food drinks: fishmongers | beauty supplies | clothing accessories: women | travel agents | retail outlet | recycling shop | house garden: glass windows | hardware | real estate agents | glassware/ceramic | delicatessen | house garden: kitchens bathrooms | betting station | hairdressers barbers | food drinks: grocers | food drinks: green grocers | convenience stores | drive through bottle shop | house garden: do-it-yourself centers | antique/art | shop | store */
 .SHOP {
-    border-left: 10px solid #FDE321;
-    background-color: #FDE321;
-}	
+  border-left: 10px solid #fde321;
+  background-color: #fde321;
+}
 
 /* internet café | tea house | cafe | internet cafe | café | coffee shop | microbrewery/beer garden | pub | café/pub | cafe/pub */
 .CAFE_PUB, 
@@ -65,9 +65,9 @@
 .WINERY,
 /* restaurant area */
 .RESTAURANT_AREA {
-    border-left: 10px solid #fd3e81;
-    background-color: #fd3e81;
-}	
+  border-left: 10px solid #fd3e81;
+  background-color: #fd3e81;
+}
 
 /* beach club | hockey club | club association */
 .CLUB_ASSOCIATION,
@@ -85,16 +85,16 @@
 .GOLF_COURSE,
 /* tennis court */
 .TENNIS_COURT {
-    border-left: 10px solid #FF7733;
-    background-color: #FF7733;
-}	
+  border-left: 10px solid #ff7733;
+  background-color: #ff7733;
+}
 
 /* bungalow | cottage | chalet | villa | apartment | holiday rental */
 .HOLIDAY_RENTAL,
 /* cabins lodges | bed breakfast guest houses | hotel | rest camps | motel | resort | hostel | hotel/motel | resthouse | hammock(s) | guest house */
 .HOTEL_MOTEL {
-    border-left: 10px solid #C879FF;
-    background-color: #C879FF;
+  border-left: 10px solid #c879ff;
+  background-color: #c879ff;
 }
 
 /* bank | banks | bank(s) */
@@ -149,9 +149,9 @@
 .NATIVE_RESERVATION,
 /* media facility */
 .MEDIA_FACILITY {
-    border-left: 10px solid #33A1FD;  
-    background-color: #33A1FD;
-}	
+  border-left: 10px solid #33a1fd;
+  background-color: #33a1fd;
+}
 
 /* exhibition convention center */
 .EXHIBITION_CONVENTION_CENTER,
@@ -185,9 +185,9 @@
 .TRAIL_SYSTEM,
 /* wildlife park | aquatic zoo marine park | arboreta botanical gardens | zoo | zoos, arboreta botanical garden */
 .ZOOS_ARBORETA_BOTANICAL_GARDEN {
-    border-left: 10px solid #662C91;    
-    background-color: #662C91;
-}	
+  border-left: 10px solid #662c91;
+  background-color: #662c91;
+}
 
 /* airline access | security gate | station access | access gateway */
 .ACCESS_GATEWAY,
@@ -217,9 +217,9 @@
 .HELIPAD_HELICOPTER_LANDING,
 /* locality | free trade zone | traffic circle | unknown */
 .OTHER {
-    border-left: 10px solid #eee;
-    background-color: #eee;
-}	
+  border-left: 10px solid #eee;
+  background-color: #eee;
+}
 
 /* open parking area | parking lot */
 .OPEN_PARKING_AREA,
@@ -251,6 +251,6 @@
 .TRANSPORT_AUTHORITY_VEHICLE_REGISTRATION,
 /* truck stop */
 .TRUCK_STOP {
-    border-left: 10px solid #309C76;
-    background-color: #309C76;
-}	
+  border-left: 10px solid #309c76;
+  background-color: #309c76;
+}

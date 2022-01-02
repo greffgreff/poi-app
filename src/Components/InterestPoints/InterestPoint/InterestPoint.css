@@ -1,33 +1,33 @@
 .interest-point {
-    background-color: white !important;
-    padding: 10px 30px;
-    border-radius: 10px;
-    margin-bottom: 25px;
-    transition: 0.3s;
-    box-shadow: 0 10px 7px -5px #eee;
-    /* border-left: 8px solid #eee;  */
-    border-left: none !important; 
+  background-color: white !important;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  transition: 0.3s;
+  box-shadow: 0 10px 7px -5px #eee;
+  /* border-left: 8px solid #eee;  */
+  border-left: none !important;
 }
 
 .interest-point:hover {
-    box-shadow: 0 10px 15px -5px #eee;
-    transform: scale(1.01) translateZ(0) perspective(1000px) rotateX(1deg);    
+  box-shadow: 0 10px 15px -5px #eee;
+  transform: scale(1.01) translateZ(0) perspective(1000px) rotateX(1deg);
 }
 
 .one-liner {
-    display: grid;
-    grid-auto-flow: column;
+  display: grid;
+  grid-auto-flow: column;
 }
 
 .category {
-    /* display: none; */
-    float: right;
-    font-size: 12px;
-    color: white;
-    height: auto;
-    width: max-content;
-    padding: 6px 10px;
-    border-radius: 5px;
-    border-left: none !important; 
-    margin-right: 10px;
+  /* display: none; */
+  float: right;
+  font-size: 12px;
+  color: white;
+  height: auto;
+  width: max-content;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border-left: none !important;
+  margin-right: 10px;
 }
