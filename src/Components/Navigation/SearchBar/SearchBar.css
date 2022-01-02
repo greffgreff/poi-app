@@ -1,0 +1,6 @@
+.search-content-wrapper {
+    margin: auto;
+    width: 80%;
+    height: 35px !important;
+    transform: translateY(-50%);
+}

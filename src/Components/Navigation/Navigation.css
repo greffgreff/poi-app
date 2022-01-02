@@ -1,6 +1,6 @@
 nav {
-  /* background-color: white; */
-  backdrop-filter: blur(10px);
+  background-color: white;
+  /* backdrop-filter: blur(10px); */
   position: fixed;
   top: 0;
   width: 100vw;
@@ -8,21 +8,43 @@ nav {
   z-index: 999;
 }
 
-.nav-items {
-  height: 100%;
-  width: 40%;
+.nav-content-wrapper {
   margin: auto;
+  width: 40%;
+  height: 100%;
+}
+
+.nav-content-wrapper div, .content-wrapper .logo {
+  height: 100%;
+}
+
+.one-liner {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
-  justify-content: space-evenly;
 }
 
-.nav-items * {
+.links, .logo {
+  height: 100%;
+  width: auto;
+}
+
+.links * {
   margin: auto;
 }
 
-.nav-items a {
+.logo * {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.links {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.links a {
   opacity: 0.3;
 }
 
