@@ -1,14 +1,13 @@
 import React from 'react'
 import './MapArea.css'
-import { Wrapper as GoogleMapWrapper, Status } from "@googlemaps/react-wrapper"
+import { useRef, useEffect, useState } from 'react';
 
 export default function MapArea() {
     return (
         <>
-            <div className="map-area" />
-            {/* <GoogleMapWrapper apiKey={"YOUR_API_KEY"}>
-            <MapArea />
-            </GoogleMapWrapper> */}
+            <div className="map-area">
+
+            </div>
         </>
     )
 }
