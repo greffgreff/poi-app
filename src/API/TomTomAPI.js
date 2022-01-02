@@ -20,12 +20,10 @@ export default function PointsOfInterests(query) {
 const parsePoiData = (poiData) => {
     const parsedPois = [];
     poiData.data.results.forEach((result) => {
-        parseCategoriesArray(result.poi.categories)
-
         parsedPois.push({
             id: uuidv4(),
             name: result.poi.name,
-            categories: parseCategoriesArray(result.poi.categories),
+            categories: parseCategoryLabels(result.poi.categories),
             code: result.poi.classifications[0].code,
             phone: result.poi.phone,
             url: result.poi.url,
@@ -34,16 +32,16 @@ const parsePoiData = (poiData) => {
     return parsedPois.reverse();
 };
 
-const parseCategoriesArray = (array) => {
-    var parsedArray = []
+const parseCategoryLabels = (array) => {
+    var parsedLabels = []
 
     array.forEach(category => {
-        const splitArray = category.split(",")
-        const trimmedArray = splitArray.map(label => label.trim())
-        const upperCasedArray = trimmedArray.map(label => label.charAt(0).toUpperCase() + label.slice(1))
-        console.log(upperCasedArray)
-        parsedArray = [...parsedArray, ...upperCasedArray]
+        let splitLabels = category.split(",")
+        let trimmedLabels = splitLabels.map(label => label.trim())
+        let upperCasedLabels = trimmedLabels.map(label => label.charAt(0).toUpperCase() + label.slice(1))
+        let shortenedLabels = upperCasedLabels.map(label => label.includes(':') ? label.substring(0, label.indexOf(':')) : label)
+        parsedLabels = [...parsedLabels, ...shortenedLabels]
     })
 
-    return parsedArray
+    return parsedLabels
 }
